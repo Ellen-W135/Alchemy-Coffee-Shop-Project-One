@@ -101,10 +101,119 @@ h1 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(67, 225, 236, 0.795);
+    background-color: rgba(29, 3, 41, 0.8);
 
     bottom: 30px;
-    right: 150px;
+    right: 120px;
 
     position: absolute;
+}
+/* alchemy about section */
+
+#alchemy-about {
+    height: 1200px;
+    width: 100%;
+}
+
+#alchemy-about section {
+    height: 800px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#left-about ul {
+    style:none;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+#right-about ul {
+    style:none;
+}
+
+#center-about {
+    width: 30%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    text-align: left;
+}
+
+.left-about-heading p {
+    text-align: left;
+}
+
+.left-about-heading ul {
+    text-align: left;
+    style: none;
+}
+
+.left-about-heading {
+    width: 100%;
+    float: right;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+.right-about-heading > ul {
+    text-align: right;
+}
+
+.right-about-heading > ul {
+    style: none;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 230%;
+}
+
+#circle-container {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/alchemy-logo-main.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
