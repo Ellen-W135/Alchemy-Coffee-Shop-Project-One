@@ -87,8 +87,21 @@ h1 {
     background: url('../images/alchemy-hero-image.png') no-repeat center center;
 }
 
-/* animates zoom effect on loading page - havng issues with gitpod/does not match up with code institute and gives errors */
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
 
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
 #cover-text {
     font-size: 130%;
     font-family: 'Playfair-Display', serif;
@@ -111,37 +124,45 @@ h1 {
 /* alchemy about section */
 
 #alchemy-about {
-    height: 1200px;
+    height: 1000px;
     width: 100%;
+    display: inline-block;
 }
 
-#alchemy-about section {
+#alchemy-about > div {
     height: 800px;
 }
 
+*/ update this when ready*/
+#alchemy-about > #right-about 
+
 #left-about {
     padding-top: 30px;
-    width: 50%;
+    width: 40%;
     float: left;
 }
 
 #left-about ul {
-    style:none;
+    list-style-type:none;
 }
 
 #right-about {
     padding-top: 30px;
-    width: 50%;
+    padding-left: 800px;
+    width: 40%;
     float: right;
+    align-content: right;
+    margin-left: 200px;
 }
 
-#right-about ul {
-    style:none;
+#right-about ul {   
+    list-style-type: none;
 }
 
 #center-about {
     width: 30%;
     margin: 0 auto;
+    align-content: center;
 }
 
 hr {
@@ -160,7 +181,7 @@ hr {
 
 .left-about-heading ul {
     text-align: left;
-    style: none;
+    list-style-type: none;
 }
 
 .left-about-heading {
@@ -189,10 +210,11 @@ hr {
 
 .right-about-heading > ul {
     text-align: right;
+    list-style-type: none;
 }
 
 .right-about-heading > ul {
-    style: none;
+    list-style-type: none;
 }
 
 #welcome {
@@ -216,4 +238,14 @@ hr {
     background: url('../images/alchemy-logo-main.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#circle-cover-bg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
