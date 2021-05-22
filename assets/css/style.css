@@ -82,10 +82,12 @@ h1 {
 }
 
 #hero-image {
-    height: 600px;
+    height: 100%;
     width: 100%;
-    background: url('../images/alchemy-hero-image.png') no-repeat center center;
+    background: url('../images/books.jpg') no-repeat center center;
+
 }
+/*add more hero images, and animation style rules when figured out to have them show 5s each in loop sequence*/
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -133,17 +135,10 @@ h1 {
     height: 800px;
 }
 
-*/ update this when ready*/
-#alchemy-about > #right-about 
-
 #left-about {
     padding-top: 30px;
     width: 40%;
     float: left;
-}
-
-#left-about ul {
-    list-style-type:none;
 }
 
 #right-about {
@@ -153,10 +148,6 @@ h1 {
     float: right;
     align-content: right;
     margin-left: 200px;
-}
-
-#right-about ul {   
-    list-style-type: none;
 }
 
 #center-about {
@@ -210,10 +201,6 @@ hr {
 
 .right-about-heading > ul {
     text-align: right;
-    list-style-type: none;
-}
-
-.right-about-heading > ul {
     list-style-type: none;
 }
 
