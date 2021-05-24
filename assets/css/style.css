@@ -119,21 +119,23 @@ h1, h2 {
 /* alchemy about section */
 
 #alchemy-about {
-    height: 200px;
+    height: 300px;
+    flex-direction: row; 
+    flex-flow: row;
 }
 
 #left-about {
     padding-top: 30px;
-    width: 30%;
+    width: 50%;
     float: left;
 }
 
 #right-about {
     padding-top: 30px;
-    padding-left: 100px;
-    width: 30%;
+    padding-left: 30px;
+    width: 50%;
     float: right;
-    align-content: center;
+    align-content: right;
     margin-left: 20px;
 }
 
